@@ -15,6 +15,8 @@
 		042247E21CDD73FA00AE3953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042247E01CDD73FA00AE3953 /* LaunchScreen.storyboard */; };
 		042247ED1CDD73FA00AE3953 /* sampleTimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042247EC1CDD73FA00AE3953 /* sampleTimerAppTests.swift */; };
 		042247F81CDD73FA00AE3953 /* sampleTimerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042247F71CDD73FA00AE3953 /* sampleTimerAppUITests.swift */; };
+		0452BD8A1D5F0F4400940F30 /* tm.png in Resources */ = {isa = PBXBuildFile; fileRef = 0452BD891D5F0F4400940F30 /* tm.png */; };
+		0452BD8C1D5F106F00940F30 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 0452BD8B1D5F106F00940F30 /* img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		042247F31CDD73FA00AE3953 /* sampleTimerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTimerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042247F71CDD73FA00AE3953 /* sampleTimerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTimerAppUITests.swift; sourceTree = "<group>"; };
 		042247F91CDD73FA00AE3953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0452BD891D5F0F4400940F30 /* tm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tm.png; sourceTree = "<group>"; };
+		0452BD8B1D5F106F00940F30 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		042247C81CDD73F900AE3953 = {
 			isa = PBXGroup;
 			children = (
+				0452BD881D5F0F4400940F30 /* Assets */,
 				042247D31CDD73FA00AE3953 /* sampleTimerApp */,
 				042247EB1CDD73FA00AE3953 /* sampleTimerAppTests */,
 				042247F61CDD73FA00AE3953 /* sampleTimerAppUITests */,
@@ -126,6 +131,15 @@
 				042247F91CDD73FA00AE3953 /* Info.plist */,
 			);
 			path = sampleTimerAppUITests;
+			sourceTree = "<group>";
+		};
+		0452BD881D5F0F4400940F30 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0452BD891D5F0F4400940F30 /* tm.png */,
+				0452BD8B1D5F106F00940F30 /* img.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0452BD8C1D5F106F00940F30 /* img.png in Resources */,
 				042247E21CDD73FA00AE3953 /* LaunchScreen.storyboard in Resources */,
 				042247DF1CDD73FA00AE3953 /* Assets.xcassets in Resources */,
+				0452BD8A1D5F0F4400940F30 /* tm.png in Resources */,
 				042247DA1CDD73FA00AE3953 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +504,7 @@
 				042247FE1CDD73FA00AE3953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042247FF1CDD73FA00AE3953 /* Build configuration list for PBXNativeTarget "sampleTimerAppTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +513,7 @@
 				042248011CDD73FA00AE3953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042248021CDD73FA00AE3953 /* Build configuration list for PBXNativeTarget "sampleTimerAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +522,7 @@
 				042248041CDD73FA00AE3953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
