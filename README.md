@@ -1,6 +1,6 @@
 # １時間でiPhoneアプリを作ろう
 
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/sampleTimer/blob/master/Assets/img.png" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/sampleTimerApp/blob/master/Assets/img.png" /></div>
   
   当アカウントへ訪れていただき、誠にありがとうございます。タイマーアプリのサンプルになります。自分のペースで勉強したい、勉強前に予習したい、内容を復習したい方、是非ご利用ください。
 
