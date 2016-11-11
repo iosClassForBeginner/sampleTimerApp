@@ -14,3 +14,7 @@
   
 ## 別途アプリ教室(有料)も開いております  
   http://learning-ios-dev.esy.es/  
+
+## 問い合わせ
+  株式会社ジーライブ
+  http://geelive-inc.com  
